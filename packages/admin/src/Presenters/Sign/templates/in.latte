@@ -1,0 +1,6 @@
+{control document:start}
+{foreach $flashes as $flash}
+	<div class="flash {$flash->type}">{$flash->message}</div>
+{/foreach}
+<h1>Sign page</h1>
+{control document:end}

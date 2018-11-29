@@ -1,0 +1,12 @@
+modette.admin:
+    sign:
+        signInAction: ':Modette:Accounts:Admin:Sign:in'
+        signOutAction: ':Modette:Accounts:Admin:Sign:out'
+services:
+
+	# Modette\Accounts\Admin\Presenters\Sign\SignPresenter
+
+	modette.accounts.admin.sign.signPresenter:
+		factory: Modette\Accounts\Admin\Presenters\Sign\SignPresenter
+		setup:
+			- setRequireLogin(false)
