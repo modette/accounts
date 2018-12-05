@@ -4,9 +4,9 @@ modette.admin:
         signOutAction: ':Modette:Accounts:Admin:Sign:out'
 services:
 
-	# Modette\Accounts\Admin\Presenters\Sign\SignPresenter
+	# Modette\Accounts\Admin\Presenter\Sign\SignPresenter
 
 	modette.accounts.admin.sign.signPresenter:
-		factory: Modette\Accounts\Admin\Presenters\Sign\SignPresenter
+		factory: Modette\Accounts\Admin\Presenter\Sign\SignPresenter
 		setup:
 			- setRequireLogin(false)

@@ -3,9 +3,9 @@
 namespace Modette\Accounts\Core\Person;
 
 use Modette\Accounts\Core\Account\Account;
-use Modette\Orm\Properties\CreatedAt;
-use Modette\Orm\Properties\UpdatedAt;
-use Modette\Orm\Properties\UUID;
+use Modette\Orm\Property\CreatedAt;
+use Modette\Orm\Property\PrimaryUUID;
+use Modette\Orm\Property\UpdatedAt;
 use Nette\Utils\Strings;
 use Nextras\Orm\Entity\Entity;
 use Nextras\Orm\Relationships\OneHasMany;
@@ -20,7 +20,7 @@ use Nextras\Orm\Relationships\OneHasMany;
 class Person extends Entity
 {
 
-	use UUID;
+	use PrimaryUUID;
 	use CreatedAt;
 	use UpdatedAt;
 

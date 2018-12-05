@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Modette\Accounts\Admin\Presenters\Sign;
+namespace Modette\Accounts\Admin\Presenter\Sign;
 
 use Modette\Admin\Presenters\Admin\BaseAdminPresenter;
 

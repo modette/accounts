@@ -2,9 +2,9 @@
 
 namespace Modette\Accounts\Core\Scope;
 
-use Modette\Orm\Properties\CreatedAt;
-use Modette\Orm\Properties\UpdatedAt;
-use Modette\Orm\Properties\UUID;
+use Modette\Orm\Property\CreatedAt;
+use Modette\Orm\Property\UpdatedAt;
+use Modette\Orm\Property\PrimaryUUID;
 use Nextras\Orm\Entity\Entity;
 
 /**
@@ -13,7 +13,7 @@ use Nextras\Orm\Entity\Entity;
 class Scope extends Entity
 {
 
-	use UUID;
+	use PrimaryUUID;
 	use CreatedAt;
 	use UpdatedAt;
 

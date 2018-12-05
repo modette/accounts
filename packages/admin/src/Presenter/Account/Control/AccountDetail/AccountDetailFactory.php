@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Modette\Accounts\Admin\Presenters\Account\Controls\AccountDetail;
+namespace Modette\Accounts\Admin\Presenter\Account\Controls\AccountDetail;
 
 interface AccountDetailFactory
 {
