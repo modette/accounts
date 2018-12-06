@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace Modette\Accounts\Admin\Presenter\Sign;
+namespace Modette\Accounts\Admin\Sign\Presenter;
 
-use Modette\Admin\Presenters\Admin\BaseAdminPresenter;
+use Modette\Admin\Presenter\Admin\BaseAdminPresenter;
 
 class SignPresenter extends BaseAdminPresenter
 {

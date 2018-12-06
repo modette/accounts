@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Modette\Accounts\Admin\Presenter\Sign\Controls\SignIn;
+namespace Modette\Accounts\Admin\Sign\In;
 
 interface SignInFactory
 {
