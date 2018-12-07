@@ -3,7 +3,7 @@ services:
     # Modette\Accounts\Core\Account\Account
 
     modette.accounts.core.account.accountMapper:
-        implement: Modette\Accounts\Core\Account\Mapper\AccountMapper
+        type: Modette\Accounts\Core\Account\Mapper\AccountMapper
         factory: Modette\Accounts\Core\Account\Mapper\AccountPgsqlMapper
     modette.accounts.core.account.accountRepository:
         factory: Modette\Accounts\Core\Account\AccountRepository
@@ -11,7 +11,7 @@ services:
     modette.accounts.core.account.accountFacade:
         factory: Modette\Accounts\Core\Account\AccountFacade
     modette.accounts.core.account.accountFacadeAccessor:
-        factory: Modette\Accounts\Core\Account\AccountFacadeAccessor
+        implement: Modette\Accounts\Core\Account\AccountFacadeAccessor
 
     modette.accounts.core.account.command.createAccount:
         factory: Modette\Accounts\Core\Account\Command\CreateAccountCommand
@@ -21,12 +21,12 @@ services:
     # Modette\Accounts\Core\Person\Person
 
     modette.accounts.core.person.personMapper:
-        implement: Modette\Accounts\Core\Person\Mapper\PersonMapper
+        type: Modette\Accounts\Core\Person\Mapper\PersonMapper
         factory: Modette\Accounts\Core\Person\Mapper\PersonPgsqlMapper
     modette.accounts.core.person.personRepository:
         factory: Modette\Accounts\Core\Person\PersonRepository
     modette.accounts.core.person.personAttributeMapper:
-        implement: Modette\Accounts\Core\Person\Mapper\PersonAttributeMapper
+        type: Modette\Accounts\Core\Person\Mapper\PersonAttributeMapper
         factory: Modette\Accounts\Core\Person\Mapper\PersonAttributePgsqlMapper
     modette.accounts.core.person.personAttributeRepository:
         factory: Modette\Accounts\Core\Person\PersonAttributeRepository
@@ -37,7 +37,7 @@ services:
     # Modette\Accounts\Core\Token\Token
 
     modette.accounts.core.token.tokenMapper:
-        implement: Modette\Accounts\Core\Token\Mapper\TokenMapper
+        type: Modette\Accounts\Core\Token\Mapper\TokenMapper
         factory: Modette\Accounts\Core\Token\Mapper\TokenPgsqlMapper
     modette.accounts.core.token.tokenRepository:
         factory: Modette\Accounts\Core\Token\TokenRepository

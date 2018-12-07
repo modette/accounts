@@ -7,7 +7,7 @@ use Modette\Accounts\Core\Account\Account;
 use Modette\Core\Exception\Logic\InvalidStateException;
 use Modette\Orm\Property\CreatedAt;
 use Modette\Orm\Property\UpdatedAt;
-use Modette\Orm\Property\PrimaryUUID;
+use Modette\Orm\Property\UUID;
 use Nextras\Dbal\Utils\DateTimeImmutable;
 use Nextras\Orm\Entity\Entity;
 
@@ -23,7 +23,7 @@ use Nextras\Orm\Entity\Entity;
 class Token extends Entity
 {
 
-	use PrimaryUUID;
+	use UUID;
 	use CreatedAt;
 	use UpdatedAt;
 

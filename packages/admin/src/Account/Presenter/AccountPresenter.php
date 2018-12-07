@@ -2,7 +2,7 @@
 
 namespace Modette\Accounts\Admin\Account\Presenter;
 
-use Modette\Admin\Presenter\Admin\BaseAdminPresenter;
+use Modette\Admin\Base\Presenter\BaseAdminPresenter;
 
 class AccountPresenter extends BaseAdminPresenter
 {

@@ -2,7 +2,7 @@
 
 namespace Modette\Accounts\Admin\Sign\In;
 
-use Modette\UI\Control\Base\BaseControl;
+use Modette\UI\Base\Control\BaseControl;
 
 class SignInControl extends BaseControl
 {

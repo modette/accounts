@@ -2,7 +2,7 @@
 
 namespace Modette\Accounts\Admin\Sign\Presenter;
 
-use Modette\Admin\Presenter\Admin\BaseAdminPresenter;
+use Modette\Admin\Base\Presenter\BaseAdminPresenter;
 
 class SignPresenter extends BaseAdminPresenter
 {

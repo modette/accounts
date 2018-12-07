@@ -8,7 +8,7 @@ use Modette\Accounts\Core\Person\Person;
 use Modette\Accounts\Core\Scope\Scope;
 use Modette\Orm\Property\CreatedAt;
 use Modette\Orm\Property\UpdatedAt;
-use Modette\Orm\Property\PrimaryUUID;
+use Modette\Orm\Property\UUID;
 use Nextras\Orm\Entity\Entity;
 
 /**
@@ -26,12 +26,12 @@ use Nextras\Orm\Entity\Entity;
  *       - detekuje se při registraci a při změně ip adresy?
  *       - nebo home timezone?
  * @todo - jazyk
- * 		 - uložit při registraci
+ *         - uložit při registraci
  */
 class Account extends Entity
 {
 
-	use PrimaryUUID;
+	use UUID;
 	use CreatedAt;
 	use UpdatedAt;
 

@@ -2,7 +2,7 @@
 
 namespace Modette\Accounts\Admin\Account\View;
 
-use Modette\UI\Control\Base\BaseControl;
+use Modette\UI\Base\Control\BaseControl;
 
 class AccountViewControl extends BaseControl
 {

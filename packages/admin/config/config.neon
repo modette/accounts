@@ -12,4 +12,4 @@ services:
 			- setRequireLogin(false)
 
 	modette.accounts.admin.sign.in.signInFactory:
-		factory: Modette\Accounts\Admin\Sign\In\SignInFactory
+		implement: Modette\Accounts\Admin\Sign\In\SignInFactory
